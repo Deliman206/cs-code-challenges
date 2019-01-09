@@ -19,4 +19,4 @@ Space: O(1)
   - this solution is actually O(2) and that is because we have 2 arrays to save in memory, however we never need any more arrays than 2 and O(2) reduces to O(1)
   
 ## Solution
-![insertShiftArray](assests/wbInsertShiftArray.jpg)
+![insertShiftArray](assets/wbInsertShiftArray.jpg)
