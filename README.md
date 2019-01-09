@@ -12,5 +12,11 @@ Write a function called insertShiftArray which takes in an array and the value t
 Our approach was to create a solution array (the array that the method will return) and assign the values of the solution array to those of the input array. We used conditional logic to handle the events before, during and after the middle index of the loop iteration of the solution array.
 Once they array is filled the method returns the solution array.
 
+## Big O
+Time: O(n) where n is the number of integers in the input array
+  - this solution grows linearly as the amount of integers in the input array is never known ahead-of-time
+Space: O(1) 
+  - this solution is actually O(2) and that is because we have 2 arrays to save in memory, however we never need any more arrays than 2 and O(2) reduces to O(1)
+  
 ## Solution
 ![insertShiftArray](wbInsertShiftArray.jpg)
