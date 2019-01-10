@@ -19,7 +19,7 @@ Space: O(1)
   - this solution is actually O(2) and that is because we have 2 arrays to save in memory, however we never need any more arrays than 2 and O(2) reduces to O(1)
   
 ## Solution
-![insertShiftArray](wbInsertShiftArray.jpg)
+![insertShiftArray](assets/wbInsertShiftArray.jpg)
 
 # Binary Search
 This method allows the user to find the index of an integar value in a sorted integar array as well as let the user know if it doesn't exist.
@@ -31,4 +31,4 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 The first approach I thought of was to use a for loop to find the value and simply return the loop counter when the value was found. However this was innefficient because in a worst case scenario (i.e. the value is not in the array) the Big O for time would be O(n). This is not the worst but I felt I could do better because I knew the method took a SORTED integar array. From their it was concluded the midpoint was going to pivotal in this algorithm and it was going to have to be a loop or recursive. Recursion takes more space than 0(1) so a while loop became the the choice.
 
 ## Solution
-![binarySearch](WbBinarySearch.jpg)
+![binarySearch](assets/WbBinarySearch.jpg)
