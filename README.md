@@ -20,3 +20,15 @@ Space: O(1)
   
 ## Solution
 ![insertShiftArray](assets/wbInsertShiftArray.jpg)
+
+# Binary Search
+This method allows the user to find the index of an integar value in a sorted integar array as well as let the user know if it doesn't exist.
+
+## Challenge
+Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available to your language, return the index of the array’s element that is equal to the search key, or -1 if the element does not exist.
+
+## Approach and Efficiency
+The first approach I thought of was to use a for loop to find the value and simply return the loop counter when the value was found. However this was innefficient because in a worst case scenario (i.e. the value is not in the array) the Big O for time would be O(n). This is not the worst but I felt I could do better because I knew the method took a SORTED integar array. From their it was concluded the midpoint was going to pivotal in this algorithm and it was going to have to be a loop or recursive. Recursion takes more space than 0(1) so a while loop became the the choice.
+
+## Solution
+![binarySearch](assets/WbBinarySearch.jpg)
